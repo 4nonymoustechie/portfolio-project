@@ -19,8 +19,8 @@ nav{
    position: absolute;
    position: fixed;
    padding-top: 10px;
-   padding-bottom: 10px;
    color: green;
+   border-bottom: solid green 1px;
    
 }
 #space{
@@ -79,8 +79,8 @@ a:hover {
     padding-left: 20px;
     align-items: center;
     padding-right: 10px;
-    transition: transform .2s;
     -webkit-appearance: none;
+    transition: transform .2s;
 }
 #model:hover{
     transform: scale(1.5);
@@ -279,4 +279,13 @@ footer{
 #move1{
     padding-left: 80px;
     font-size: 14px;
+}
+
+
+#path1{
+    width: 30px;
+}
+#Path{
+
+   width: 40px; 
 }
